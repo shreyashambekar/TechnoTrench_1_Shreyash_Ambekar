@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:padding="18dp"
+        android:background="@drawable/note_content"
+        android:layout_marginBottom="16dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:id="@+id/titleTextView"/>
+
+        <TextView
+            android:id="@+id/contentTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"/>
+
+        <TextView
+            android:id="@+id/Button_upadate_note"
+            android:layout_width="70dp"
+            android:layout_height="24dp"
+            android:layout_gravity="end"
+            android:background="@drawable/button"
+            android:text="Update"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            tools:ignore="RtlCompat" />
+
+    </LinearLayout>
+</LinearLayout>
